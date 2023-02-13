@@ -1,0 +1,13 @@
+spring :
+  datasource:
+    username: admin
+    password: pass1433
+    url: jdbc:mysql://database-1.cfjnkdumoano.ap-south-1.rds.amazonaws.com:3306/sbms?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true 
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER

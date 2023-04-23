@@ -1,4 +1,4 @@
-# Swagger-3_Open-Api-SpringApplication
+# Swagger-2.7.10_Open-Api-SpringApplication
 
 spring
 
@@ -16,7 +16,7 @@ auto database creation
 
 auto table creation
 
-swagger -3 
+swagger -2.7.10
 
 Open-api
 
